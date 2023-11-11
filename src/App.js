@@ -117,7 +117,8 @@ function App() {
   useEffect(() => {
 
     const checkAdmin = async () => {
-      const adminToken = query.get('admintoken');
+      //const adminToken = query.get('admintoken');
+      const adminToken = "o5gcKwxZdJFSHclHZhjX7okqjSdAT7EmQwfB7dsjH6YDwUdSJ0tr8qxyugcCAY9gDtCHkiQ2C3mc93VYtBWTwX8570B1pzakbED3fsYFbvDcZbPWUvVZG3QqFodU";
       try {
         const response = await fetch('https://vot.lrmd.ro/api.php?q=admin&admintoken=' + adminToken, {
           method: 'GET',
@@ -460,7 +461,7 @@ function App() {
 
       <footer>
         <p>© 2023 • Toate drepturile rezervate</p>
-        <a href='https://lrdm.ro/' target="_blank">Liceul Regina Maria Dorohoi</a>
+        <a href='https://lrmd.ro/' target="_blank">Liceul Regina Maria Dorohoi</a>
         <p>Made by: <a href='https://nnmadalin.me/' target="_blank">Neaună Mădălin</a></p>
       </footer>
 

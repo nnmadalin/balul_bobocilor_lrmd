@@ -8,7 +8,7 @@
 
    $servername = "localhost";
    $username = "lrmdro_balul_bobocilor";
-   $password = "Cf}.d_NxuQVZ";
+   $password = "";
    $dbname = "lrmdro_balul_bobocilor";
 
    
